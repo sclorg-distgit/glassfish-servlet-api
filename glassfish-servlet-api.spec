@@ -5,7 +5,7 @@
 
 Name:           %{?scl_prefix}glassfish-servlet-api
 Version:        3.1.0
-Release:        12.1%{?dist}
+Release:        12.2%{?dist}
 Summary:        Java Servlet API
 License:        (CDDL or GPLv2 with exceptions) and ASL 2.0
 URL:            http://servlet-spec.java.net
@@ -61,6 +61,9 @@ cp -p src/main/resources/META-INF/README .
 %license LICENSE-2.0.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 3.1.0-12.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 3.1.0-12.1
 - Automated package import and SCL-ization
 
